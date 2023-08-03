@@ -1,10 +1,25 @@
 :root{
-    --branco-principal:#FFFFFF;
+    --branco-pricipal:#FFFFFF;
     --cinza-secundario:#c0c0c0;
     --botao-azul:#167BF7;
     --cor-de-fundo:#00030C;
 }
 body{
     background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
+    color: var(--branco-pricipal);
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    background-image: url(imagens/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
